@@ -49,7 +49,7 @@ The tracking data obtained after steps (1) and (2) were further processed to ali
    Only video segments corresponding to the timestamps of action data were extracted.
 
 4. **Spatial Alignment**  
-   Positional discrepancies between action data coordinates and estimated tracking coordinates were corrected using parallel translation.
+   Locational discrepancies between action data coordinates and estimated tracking coordinates were corrected using parallel translation.
 
 After applying steps (1)–(4), the refined tracking data and action data were jointly used to evaluate players using our proposed evaluation metric.
 
