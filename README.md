@@ -2,8 +2,7 @@
 Soccer Player Evaluation Using Video-Derived Tracking Data
 
 ## Overview
-
-*(Please insert the abstract of the journal paper here.)*
+In soccer, quantitatively evaluating players' contributions based on match data is an important research challenge. In recent years, methods that assess player contributions by analyzing action data, such as passes and shots, have been widely adopted. However, these approaches primarily rely on information from the player in possession of the ball and therefore fail to sufficiently capture off-the-ball contributions, such as movement and positioning when a player does not have possession. In addition, tracking data that record the movements of all players throughout a match are available only for limited teams and leagues, making them difficult to obtain. To address these issues, this study proposes a method for generating tracking data based on player location and identification information estimated from match videos using SoccerNet-GSR. Furthermore, by integrating the generated tracking data with conventional action-based player evaluation models, we develop a novel player evaluation framework that enables the assessment of player contributions from both action-based and location-based perspectives. Experimental results demonstrate that the proposed model allows for a more multifaceted evaluation of players compared to existing models, and an improvement in correlation with player ratings from WhoScored.com is also observed. In addition, through an accuracy evaluation of the tracking data, we quantitatively show that the data generated in this study estimate player locations and identities with higher accuracy than existing methods. Finally, an analysis of the relationship between action-based and location-based evaluation values reveals a positive correlation between the two, indicating that the proposed method captures characteristics related to players' playstyles and roles.
 
 ---
 
